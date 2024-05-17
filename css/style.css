@@ -1078,6 +1078,10 @@ footer h5 {
     .section3_in h1{
         font-size: 54px;
     }
+
+    .sidebar{
+        padding: 120px 10px 0px;
+    }
     
 }
 
