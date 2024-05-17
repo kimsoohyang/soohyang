@@ -85,6 +85,4 @@ const swiper = new Swiper('.gallery_inner ', {
 window.addEventListener('resize', function(){ // 화면 리사이즈 이벤트가 발생할 경우
   swiper.autoplay.stop(); // swiper autoplay를 멈춘 다음
   swiper.autoplay.start(); // 다시 실행
-  swiper2.autoplay.stop();
-  swiper2.autoplay.start();
 });
