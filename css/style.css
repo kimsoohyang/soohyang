@@ -1078,4 +1078,11 @@ footer h5 {
     .section3_in h1{
         font-size: 54px;
     }
+    
+}
+
+@media(max-width:466px){
+    .main_in h1{
+        font-size: 50px;
+    }
 }
