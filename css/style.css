@@ -423,8 +423,9 @@ footer {
 }
 
 .footer_right h2 {
-    font-size: 26px;
+    font-size: 22px;
     color: #686868;
+    font-weight: 600;
 }
 
 .footer_right p {
