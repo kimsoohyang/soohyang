@@ -509,6 +509,15 @@ footer h5 {
 
 @media (max-width:1443px) {
 
+
+    .main_in{
+        padding-top: 17%;
+    }
+
+    .main_in a{
+        margin-top:  7%;
+    }
+
     .section1_in {
         width: 90%;
     }
@@ -617,6 +626,10 @@ footer h5 {
     .sec2_link img {
         width: 6%;
     }
+
+    .main_in a{
+        margin-top: 8%;
+    }
 }
 
 @media(max-width:1220px) {
@@ -626,6 +639,14 @@ footer h5 {
 
     .section2_in {
         width: 95%;
+    }
+
+    .main_in{
+        padding-top: 20%;
+    }
+
+    .main_in a{
+        margin-top:  8%;
     }
 
 }
@@ -668,6 +689,10 @@ footer h5 {
 
     .main_in a {
         padding: 16px 50px;
+    }
+
+    .main_in {
+        padding-top: 24%;
     }
 
     .con_left .sec1_link {
@@ -759,6 +784,10 @@ footer h5 {
         width: 95%;
     }
 
+
+    .main_in{
+        padding-top: 28%;
+    }
 
     .main_in h1 {
         font-size: 70px;
