@@ -1110,6 +1110,10 @@ footer h5 {
     .main_in{
         padding-top: 35%;
     }
+
+    .footer_left h1{
+        font-size: 25px;
+    }
  
 
 }
