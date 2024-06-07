@@ -30,6 +30,10 @@ body {
     display: none;
 }
 
+.f_none{
+    display: none;
+}
+
 /* 헤더 */
 
 header {
@@ -908,6 +912,9 @@ footer h5 {
     .footer_left {
         margin: auto;
         text-align: center;
+    }
+    .f_none{
+        display: block;
     }
 
     .section3_in h1 {
