@@ -826,7 +826,7 @@ footer h5 {
 @media(max-width:779px) {
 
     #main{
-        background-attachment:initial;
+        background-attachment:scroll;
     }
 
     .section1_in {
