@@ -825,7 +825,7 @@ footer h5 {
 
 @media(max-width:779px) {
 
-    main{
+    #main{
         background-attachment:initial;
     }
 
