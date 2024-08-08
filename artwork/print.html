@@ -27,7 +27,7 @@
 
         .title {
             text-align: center;
-            padding: 100px 0 50px;
+            padding: 30px 0 50px;
         }
 
         .title h1 {
@@ -53,14 +53,16 @@
             flex-wrap: wrap;
             background-color: #ffffff;
             padding: 50px 0;
-            box-shadow: 0 0 20px #ececec;
+            margin: auto 60px;
+            border-radius: 20px;
+            border: 2px dashed #e0e0e0;
         }
 
         .preview p {
             width: 100%;
             font-size: 18px;
             text-align: center;
-            padding-top: 30px;
+            padding-bottom: 24px;
             letter-spacing: -0.5px;
             font-weight: 500;
             color: #b1b1b1;
@@ -71,6 +73,43 @@
             display: block;
             margin: 10px;
         }
+
+        section {
+            text-align: center;
+            margin: auto;
+        }
+
+        section h2 {
+            font-size: 20px;
+            margin: 200px 0 50px;
+            color: #666666;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+
+        .btn {
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            position: fixed;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 70px;
+            right: 70px;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 1000px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            box-shadow: 4px 4px 16px #ececec;
+        }
+
 
         /* 더데이 */
         section {
@@ -84,15 +123,6 @@
         #sec1 img {
             width: 50%;
             margin: auto;
-        }
-
-        section h2 {
-            font-size: 30px;
-            margin: 150px 0 40px;
-            color: #3f3f3f;
-            display: inline-block;
-            font-weight: 600;
-            letter-spacing: -1px;
         }
 
         .img_2 {
@@ -134,11 +164,11 @@
             width: 30%;
         }
 
-        #sec4 img{
+        #sec4 img {
             width: 22%;
         }
 
-        .btn{
+        .btn {
             width: 70px;
             height: 70px;
             text-align: center;
@@ -159,26 +189,65 @@
             font-weight: 700;
             box-shadow: 4px 4px 16px #ececec;
         }
+
+        @media(max-width:1200px) {
+            #sec1 img {
+                width: 90%;
+            }
+
+            #sec2 img {
+                width: 90%;
+            }
+
+            #sec3 img {
+                width: 90%;
+            }
+
+            #sec4 img {
+                width: 60%;
+            }
+
+            .preview {
+                margin: auto 40px;
+                border-radius: 26px;
+            }
+
+        }
+
+        @media(max-width:800px) {
+
+            .btn {
+                width: 60px;
+                height: 60px;
+                bottom: 30px;
+                right: 30px;
+            }
+
+            .btn img {
+                width: 60%;
+            }
+
+        }
     </style>
 </head>
 
 <body>
     <div class="title">
-        <h1>인쇄물</h1>
     </div>
     <div class="preview">
+        <p>이미지 클릭 시 해당 디자인으로 이동합니다</p>
         <a href="#sec1"><img src="./images/print_1.png" alt="유튜브배너"></a>
         <a href="#sec2"><img src="./images/print_2.png" alt="SNS카드"></a>
-        <p>이미지 클릭 시 해당 디자인으로 이동합니다</p>
+
     </div>
 
     <section id="sec1">
-        <h2>#1 X배너</h2>
-         <img src="./images/x_banner.jpg" alt="X배너">
+        <h2>· X배너</h2>
+        <img src="./images/x_banner.jpg" alt="X배너">
     </section>
 
     <section id="sec2">
-        <h2>#2 포스터</h2>
+        <h2>· 포스터</h2>
         <img src="./images/s5.png" alt="UN">
     </section>
 
